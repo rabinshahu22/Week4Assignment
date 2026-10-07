@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Responsive Image Slider built using HTML, CSS and JavaScript">
+
+    <title>Image Slider Library</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="page-container">
+
+        <section class="slider-section">
+
+            <h1>Image Slider</h1>
+
+            <p class="slider-description">
+                A responsive image slider created using
+                HTML, CSS, and vanilla JavaScript.
+            </p>
+
+
+            <!-- Image Slider -->
+            <div class="slider" id="imageSlider">
+
+                <!-- Previous Button -->
+                <button
+                    class="slider-button previous-button"
+                    id="previousButton"
+                    type="button"
+                    aria-label="Previous image">
+
+                    &#10094;
+
+                </button>
+
+
+                <!-- Image Viewport -->
+                <div class="slider-viewport">
+
+                    <div
+                        class="slider-track"
+                        id="sliderTrack">
+                    </div>
+
+                </div>
+
+
+                <!-- Next Button -->
+                <button
+                    class="slider-button next-button"
+                    id="nextButton"
+                    type="button"
+                    aria-label="Next image">
+
+                    &#10095;
+
+                </button>
+
+            </div>
+
+
+            <!-- Indicator Dots -->
+            <div
+                class="slider-dots"
+                id="sliderDots"
+                aria-label="Slide navigation">
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="slider.js"></script>
+
+</body>
+
+</html>
